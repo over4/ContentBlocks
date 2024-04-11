@@ -1,0 +1,27 @@
+.middle-wrapper{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 100hh;
+    height: 35vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+.first img, .second img, .third img{
+    padding-top: 2rem;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    flex: 1;
+}
+.first, .second, .third{
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Hero from "./components/Hero/Hero"
+import Middle from "./components/Middle/middle"
+import VideoPlayer from './components/Video/video';
 
+// button purple: #a855f7
+// green button: #22c55e
+
+// purple text: rgb(107 33 168)
+// purple text background: rgba(168, 85, 247, .2)
+
+// green text: rgb(17 94 89)
+// green text background: rgba(20, 184, 166, .2)
+
+
+// purple gradient: To: #9089fc From: #ff80b5
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero></Hero>
+      <Middle></Middle>
+      <VideoPlayer></VideoPlayer>
     </div>
   );
 }
